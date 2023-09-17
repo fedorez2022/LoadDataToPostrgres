@@ -1,5 +1,22 @@
 *.class
 *.log
+.idea/*
+.bsp/*
+target/*
+project/*
+spark-warehouse/*
+*.iml
+metastore_db/*
+.metals/*
+.vscode/*
+hs_err*
+replay_pid*
+*.log
+
+!project/build.properties
+!project/plugins.sbt
+
+/out/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
